@@ -1,5 +1,4 @@
-
-# placeholder_image
+# placehold_img
 
 A Flutter package that provides an easy way to display placeholder images from the internet. It leverages the `CachedNetworkImage` package to display images with caching capabilities, ensuring efficient loading and offline support.
 
@@ -22,7 +21,7 @@ Copy code
   flutter:
     sdk: flutter
   cached_network_image: ^3.2.0
-  placeholder_image: ^1.0.0` 
+  placehold_img: latest_version 
 
 ## Usage
 
@@ -33,7 +32,7 @@ dart
 Copy code
 
 `import 'package:flutter/material.dart';
-import 'package:placeholder_image/placeholder_image.dart';
+import 'package:placehold_img/placehold_img.dart';
 
 void main() {
   runApp(MyApp());
@@ -42,7 +41,7 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final placeholderImage = PlaceholderImage();
+    final placeholdImg = PlaceholdImg();
 
     return MaterialApp(
       home: Scaffold(
@@ -50,7 +49,7 @@ class MyApp extends StatelessWidget {
           title: Text('Placeholder Image Example'),
         ),
         body: Center(
-          child: placeholderImage.image(width: 800, height: 600),
+          child: placeholdImg.image(width: 800, height: 600),
         ),
       ),
     );
@@ -90,7 +89,7 @@ Copy code
   flutter:
     sdk: flutter
   cached_network_image: ^3.2.0
-  placeholder_image: ^1.0.0` 
+  placehold_img: latest_version 
 
 ## Usage
 
@@ -101,7 +100,7 @@ dart
 Copy code
 
 `import 'package:flutter/material.dart';
-import 'package:placeholder_image/placeholder_image.dart';
+import 'package:placeholder_image/placehold_img.dart';
 
 void main() {
   runApp(MyApp());
@@ -110,7 +109,7 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final placeholderImage = PlaceholderImage();
+    final placeholdImg = PlaceholdImg();
 
     return MaterialApp(
       home: Scaffold(
@@ -118,7 +117,7 @@ class MyApp extends StatelessWidget {
           title: Text('Placeholder Image Example'),
         ),
         body: Center(
-          child: placeholderImage.image(width: 800, height: 600),
+          child: placeholdImg.image(width: 800, height: 600),
         ),
       ),
     );
