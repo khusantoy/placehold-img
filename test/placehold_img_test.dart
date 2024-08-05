@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:placeholder_image/placeholder_image.dart';
+import 'package:placehold_img/placehold_img.dart';
 
 void main() {
-  testWidgets('PlaceholderImage creates CachedNetworkImage with correct URL',
+  testWidgets('PlaceholdImg creates CachedNetworkImage with correct URL',
       (WidgetTester tester) async {
-    final placeholderImage = PlaceholderImage();
+    final placeholderImage = PlaceholdImg();
 
     await tester.pumpWidget(
       MaterialApp(
@@ -25,9 +25,9 @@ void main() {
     expect(cachedNetworkImage.imageUrl, "https://placehold.co/800x600");
   });
 
-  testWidgets('PlaceholderImage shows CircularProgressIndicator while loading',
+  testWidgets('PlaceholdImg shows CircularProgressIndicator while loading',
       (WidgetTester tester) async {
-    final placeholderImage = PlaceholderImage();
+    final placeholderImage = PlaceholdImg();
 
     await tester.pumpWidget(
       MaterialApp(

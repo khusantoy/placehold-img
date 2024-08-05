@@ -1,9 +1,9 @@
-library placeholder_image;
+library placehold_img;
 
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
-class PlaceholderImage {
+class PlaceholdImg {
   // Return sized placeholder image. Images by placeholder.co
   Widget image({int width = 600, int height = 400}) {
     return CachedNetworkImage( // A flutter library to show images from the internet and keep them in the cache directory.
