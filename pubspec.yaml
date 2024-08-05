@@ -1,7 +1,9 @@
 name: placeholder_image
-description: "A new Flutter package project."
+description: "A Flutter package that provides an easy way to display placeholder images from the internet. It leverages the CachedNetworkImage package to display images with caching capabilities, ensuring efficient loading and offline support."
 version: 0.0.1
-homepage:
+homepage: https://github.com/khusantoy/placeholder-image
+repository: https://github.com/khusantoy/placeholder-image
+license: MIT
 
 environment:
   sdk: '>=3.4.4 <4.0.0'
